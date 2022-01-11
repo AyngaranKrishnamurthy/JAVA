@@ -1,0 +1,35 @@
+Step 1: Download Jar file and assign environment variable to the JAR file as "JUNIT_HOME"
+Step 2:Set class path in environment variable [Name: CLASSPATH Value: %CLASSPATH%%JUNIT_HOME%\JUNIT4.10.jar;.;]
+Step 3:In Eclipse create a new Maven project with qwickstart archetype
+Step 4:Replace the dependencies in POM with the following between dependency tag:
+	<dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-suite</artifactId>
+            <version>${junit.platform.version}</version>
+            <scope>test</scope>
+        </dependency>
+Step 5:Replace the properties in the POM with:
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+            <junit.jupiter.version>5.8.1</junit.jupiter.version>
+        <junit.platform.version>1.8.1</junit.platform.version>
+Step 6:Now you  are all set to define your own test cases and to get started
+
+[Remember to use JDK 8 only]
