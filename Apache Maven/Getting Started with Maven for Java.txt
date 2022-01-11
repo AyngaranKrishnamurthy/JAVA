@@ -4,7 +4,7 @@ Step 2: Unzip the maven files and set path to environment variables till bin. [E
 Step 3: Open cmd and type "mvn -version" and press Enter. If the Maven was installed successfully this returns the Maven version adn Java version details
 
 Creating Maven Project using Eclipse IDE:
-Step 1: Create a new Maven project[File->New->Others->Maven->Maven Project]
+Step 1: Create a new Maven project [File->New->Others->Maven->Maven Project]
 Step 2: Select archetype [org.apache/maven.archetypes : maven-archetype-quikstart]
 Step 3: Enter the required details and click enter.
 Step 4: Compile the maven using [Run as Maven Build with Goals(compiler:compile)]
