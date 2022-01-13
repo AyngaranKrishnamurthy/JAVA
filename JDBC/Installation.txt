@@ -1,0 +1,4 @@
+Download and Install: HeidiSql and MySQL.
+Make sure that the port and user name and password provided for both are similar.
+Installing MySQL: https://youtu.be/SgqZWoTOdQU
+Installing and connecting with Heidi SQL: https://youtu.be/qo0XTfq52cU

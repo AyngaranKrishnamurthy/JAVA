@@ -1,0 +1,2 @@
+What is Bean?
+Bean is similar to an entity, but an entity cannot be passed to the service layer or presentation layer(UITester)hence we convert an entity into a bean while traversing(DAO->Service Layer->Presentation Layer) up and the Bean is converted to entity while traversing down(DAO->DB)

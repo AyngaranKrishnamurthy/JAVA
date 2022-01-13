@@ -1,0 +1,16 @@
+com.solution.test.businessbean
+	EmployeeBean: Has the function calls for employee with getters and setters.
+
+com.solution.test.dao
+	EmployeeDAO: Interface for performing CRUD operations
+	EmployeeDAOImpl: Implements the Employee DAO interface to perform crud operations.
+
+com.solution.test.service
+	EmployeeService: Interface between UITester and DAO implements EmployeeBean.
+	EmployeeServiceImpl: Implements the EmployeeService interface to invoke DAO layer.
+
+com.solution.test.ui
+	UITester: FrontEnd implementation to check if the function calls are executed. 
+
+com.solution.test.utility
+	DBUtility: Has connection and configuration information to connect with the database.

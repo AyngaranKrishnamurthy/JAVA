@@ -1,0 +1,4 @@
+Step 1:Create a database named jdbcdemos in HeidiSQL
+Step 2:Execute the sql queries in "com.solution.test.sql" in the database created
+Step 3:Create a new Java project
+Step 4:Right click on the project, Select BuildPath -> Configure Build Path -> Add External Jars and add the attached mysqlconnector file in the repository
