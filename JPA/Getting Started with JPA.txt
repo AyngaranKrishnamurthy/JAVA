@@ -1,0 +1,7 @@
+JPA - Java Persistence API
+ 	JPA is used to eliminate redundant steps like registering connection, etc. in JDBC.
+	EnitiyManagerFactory is used to create EntityManagers which takes care of the Entity.
+
+Working with JPA:
+Start HeidiSQL create a database jpademos and run the queries in SQL package.
+Refer BasicJPA to get an headstart
