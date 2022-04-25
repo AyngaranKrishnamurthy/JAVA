@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+	<head>
+		<title>Request Submitted Successfully</title>
+	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
+	</head>
+	<body>
+		<h2>Successfully Submitted</h2>
+		
+		<p th:text="'Customer Id:' +${supportDetails.id}"/>
+		<p th:text="'Customer Name:' +${supportDetails.name}"/>
+		<p th:text="'Customer Mail:' +${supportDetails.email}"/>
+		<p th:text="'Gender:' +${supportDetails.gender}"/>
+		<p th:text="'Membership:' +${supportDetails.membership}"/>
+		<p th:text="'Description:' +${supportDetails.content}"/>
+		
+		<a href="/support">Submit another request?</a>
+	</body>
+</html>
